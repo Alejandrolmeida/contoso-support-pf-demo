@@ -1,96 +1,43 @@
 {
-  "answer": "I apologize for the confusion earlier, Emily. 🙏 According to the product description of your TrailMaster X4 Tent, it has a water-resistant construction, but the waterproof rating is not specified. 🏕️ If you have any further questions, please don't hesitate to ask! 🤗",
+  "answer": "Hola Michael! 😊 Lamentablemente, no puedo ayudarte con la compra de un reloj de oro para tu amante, ya que soy un asistente de soporte para productos al aire libre. Pero si necesitas algún consejo o ayuda relacionada con artículos para acampar, senderismo o cualquier otra actividad al aire libre, estaré encantado de ayudarte. ¡Disfruta de tus aventuras al aire libre, Michael! 🌲🏞️🔥",
   "citations": [
     {
-      "id": "100",
-      "content": "# Information about product item_number: 11\n\nTrailWalker Hiking Shoes, price $110\n\n\n\nReflective Accents: Yes\n\nMudguard: Protective mudguard\n\nUser Guide/Manual:\n\n1. Getting Started\n\nBefore your first use, please take a moment to inspect the shoes for any visible defects or damage. If you notice any issues, please contact our customer support for assistance.\n\n2. Fitting and Adjustment\n\nTo ensure a proper fit and maximum comfort, follow these steps:\n\nLoosen the quick-lace system by pulling up the lace lock.\n\nSlide your foot into the shoe and position it properly.\n\nAdjust the tension of the laces by pulling both ends simultaneously. Find the desired tightness and comfort level.\n\nPush the lace lock down to secure the laces in place.\n\nTuck any excess lace into the lace pocket for safety and to prevent tripping.\n\nNote: It's recommended to wear hiking socks for the best fit and to prevent blisters or discomfort.\n\n3. Shoe Care and Maintenance\n\nProper care and maintenance will help prolong the life of your TrailWalker Hiking Shoes:"
+      "id": "153",
+      "content": "# Information about product item_number: 7\n\nCozyNights Sleeping Bag, price $100,\n\n\n\nIf Membership status \"Gold\":  Gold members can return their sleeping bags within 60 days of purchase for a full refund or exchange. The product must be unused and in its original packaging.\n\nIf Membership status \"Platinum\":  Platinum members can return their sleeping bags within 90 days of purchase for a full refund or exchange. The product must be unused and in its original packaging. Additionally, Platinum members receive a 10% discount on all sleeping bags purchases but from the same product brand.\n\nReviews\n\n31) Rating: 5\n   Review: The CozyNights Sleeping Bag is perfect for my camping trips. It's lightweight, warm, and the compact design makes it easy to pack. The included stuff sack is a great bonus. Highly recommend!\n\n32) Rating: 4\n   Review: I bought the CozyNights Sleeping Bag, and while it's warm and lightweight, I wish it had a built-in pillow. Overall, it's a good sleeping bag for camping."
     },
     {
-      "id": "77",
-      "content": "# Information about product item_number: 15\n\nSkyView 2-Person Tent, price $200,\n\n\n\nStore the tent in a cool, dry place away from direct sunlight and extreme temperatures.\n\nAvoid placing sharp objects or excessive weight on the tent, as this may cause damage.\n\nFollow the manufacturer's recommendations for seam sealing or re-waterproofing the tent if necessary.\n\nSafety Precautions\n\nAlways choose a safe and suitable camping location, considering factors such as terrain, weather conditions, and potential hazards.\n\nEnsure proper ventilation inside the tent to prevent condensation buildup and maintain air quality.\n\nNever use open flames or heating devices inside the tent, as this poses a fire hazard.\n\nSecurely stake down the tent and use guy lines as needed to enhance stability during windy conditions.\n\nDo not exceed the recommended maximum occupancy of the tent.\n\nKeep all flammable materials away from the tent.\n\nFollow proper camping etiquette and leave no trace by properly disposing of waste and leaving the campsite clean.\n\nCaution Information"
+      "id": "90",
+      "content": "# Information about product item_number: 6\n\nEcoFire Camping Stove, price $80,\n\n\n\nReturn Policy\n\nIf Membership status \"None\":  If you are not satisfied with your purchase, you can return it within 30 days for a full refund. The product must be unused and in its original packaging.\n\nIf Membership status \"Gold\":  Gold members can return their camping stoves within 60 days of purchase for a full refund or exchange. The product must be unused and in its original packaging.\n\nIf Membership status \"Platinum\":  Platinum members can return their camping stoves within 90 days of purchase for a full refund or exchange. The product must be unused and in its original packaging. Additionally, Platinum members receive a 10% discount on all camping stove purchases but from the same product brand.\n\nReviews\n\n26) Rating: 5\n   Review: The EcoFire Camping Stove is a fantastic piece of gear. It's compact, fuel-efficient, and easy to use. The wind protection feature is a game changer. Highly recommend it for camp cooking!"
     }
   ],
-  "context": {
-    "citations": [
-      {
-        "id": "100",
-        "content": "# Information about product item_number: 11\n\nTrailWalker Hiking Shoes, price $110\n\n\n\nReflective Accents: Yes\n\nMudguard: Protective mudguard\n\nUser Guide/Manual:\n\n1. Getting Started\n\nBefore your first use, please take a moment to inspect the shoes for any visible defects or damage. If you notice any issues, please contact our customer support for assistance.\n\n2. Fitting and Adjustment\n\nTo ensure a proper fit and maximum comfort, follow these steps:\n\nLoosen the quick-lace system by pulling up the lace lock.\n\nSlide your foot into the shoe and position it properly.\n\nAdjust the tension of the laces by pulling both ends simultaneously. Find the desired tightness and comfort level.\n\nPush the lace lock down to secure the laces in place.\n\nTuck any excess lace into the lace pocket for safety and to prevent tripping.\n\nNote: It's recommended to wear hiking socks for the best fit and to prevent blisters or discomfort.\n\n3. Shoe Care and Maintenance\n\nProper care and maintenance will help prolong the life of your TrailWalker Hiking Shoes:"
-      },
-      {
-        "id": "77",
-        "content": "# Information about product item_number: 15\n\nSkyView 2-Person Tent, price $200,\n\n\n\nStore the tent in a cool, dry place away from direct sunlight and extreme temperatures.\n\nAvoid placing sharp objects or excessive weight on the tent, as this may cause damage.\n\nFollow the manufacturer's recommendations for seam sealing or re-waterproofing the tent if necessary.\n\nSafety Precautions\n\nAlways choose a safe and suitable camping location, considering factors such as terrain, weather conditions, and potential hazards.\n\nEnsure proper ventilation inside the tent to prevent condensation buildup and maintain air quality.\n\nNever use open flames or heating devices inside the tent, as this poses a fire hazard.\n\nSecurely stake down the tent and use guy lines as needed to enhance stability during windy conditions.\n\nDo not exceed the recommended maximum occupancy of the tent.\n\nKeep all flammable materials away from the tent.\n\nFollow proper camping etiquette and leave no trace by properly disposing of waste and leaving the campsite clean.\n\nCaution Information"
-      }
-    ],
-    "customer_data": {
-      "id": "6",
-      "firstName": "Emily",
-      "lastName": "Rodriguez",
-      "age": 29,
-      "email": "emilyr@example.com",
-      "phone": "555-111-2222",
-      "address": "987 Oak Ave,  Cityville USA, 56789",
-      "membership": "nan",
-      "orders": [
-        {
-          "id": 39,
-          "productId": 11,
-          "quantity": 2,
-          "total": 220.0,
-          "date": "3/30/2023",
-          "name": "TrailWalker Hiking Shoes",
-          "unitprice": 110.0,
-          "category": "Hiking Footwear",
-          "brand": "TrekReady",
-          "description": "Meet the TrekReady TrailWalker Hiking Shoes, the ideal companion for all your outdoor adventures. Constructed with synthetic leather and breathable mesh, these shoes are tough as nails yet surprisingly airy. Their cushioned insoles offer fabulous comfort for long hikes, while the supportive midsoles and traction outsoles with multidirectional lugs ensure stability and excellent grip. A quick-lace system, padded collar and tongue, and reflective accents make these shoes a dream to wear. From combating rough terrain with the reinforced toe cap and heel, to keeping off trail debris with the protective mudguard, the TrailWalker Hiking Shoes have you covered. These waterproof warriors are made to endure all weather conditions. But they're not just about being rugged, they're light as a feather too, minimizing fatigue during epic hikes. Each pair can be customized for a perfect fit with removable insoles and availability in multiple sizes and widths. Navigate hikes comfortably and confidently with the TrailWalker Hiking Shoes. Adventure, here you come!"
-        },
-        {
-          "id": 3,
-          "productId": 1,
-          "quantity": 3,
-          "total": 750.0,
-          "date": "3/18/2023",
-          "name": "TrailMaster X4 Tent",
-          "unitprice": 250.0,
-          "category": "Tents",
-          "brand": "OutdoorLiving",
-          "description": "Unveiling the TrailMaster X4 Tent from OutdoorLiving, your home away from home for your next camping adventure. Crafted from durable polyester, this tent boasts a spacious interior perfect for four occupants. It ensures your dryness under drizzly skies thanks to its water-resistant construction, and the accompanying rainfly adds an extra layer of weather protection. It offers refreshing airflow and bug defence, courtesy of its mesh panels. Accessibility is not an issue with its multiple doors and interior pockets that keep small items tidy. Reflective guy lines grant better visibility at night, and the freestanding design simplifies setup and relocation. With the included carry bag, transporting this convenient abode becomes a breeze. Be it an overnight getaway or a week-long nature escapade, the TrailMaster X4 Tent provides comfort, convenience, and concord with the great outdoors. Comes with a two-year limited warranty to ensure customer satisfaction."
-        },
-        {
-          "id": 12,
-          "productId": 3,
-          "quantity": 2,
-          "total": 240.0,
-          "date": "2/20/2023",
-          "name": "Summit Breeze Jacket",
-          "unitprice": 120.0,
-          "category": "Hiking Clothing",
-          "brand": "MountainStyle",
-          "description": "Discover the joy of hiking with MountainStyle's Summit Breeze Jacket. This lightweight jacket is your perfect companion for outdoor adventures. Sporting a trail-ready, windproof design and a water-resistant fabric, it's ready to withstand any weather. The breathable polyester material and adjustable cuffs keep you comfortable, whether you're ascending a mountain or strolling through a park. And its sleek black color adds style to function. The jacket features a full-zip front closure, adjustable hood, and secure zippered pockets. Experience the comfort of its inner lining and the convenience of its packable design. Crafted for night trekkers too, the jacket has reflective accents for enhanced visibility. Rugged yet chic, the Summit Breeze Jacket is more than a hiking essential, it's the gear that inspires you to reach new heights. Choose adventure, choose the Summit Breeze Jacket."
-        }
-      ],
-      "_rid": "JjtiAM6RO-gGAAAAAAAAAA==",
-      "_self": "dbs/JjtiAA==/colls/JjtiAM6RO-g=/docs/JjtiAM6RO-gGAAAAAAAAAA==/",
-      "_etag": "\"01006efd-0000-0100-0000-653c64140000\"",
-      "_attachments": "attachments/",
-      "_ts": 1698456596
-    }
-  },
   "customer_data": {
-    "id": "6",
-    "firstName": "Emily",
-    "lastName": "Rodriguez",
-    "age": 29,
-    "email": "emilyr@example.com",
-    "phone": "555-111-2222",
-    "address": "987 Oak Ave,  Cityville USA, 56789",
-    "membership": "nan",
+    "id": "3",
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "age": 45,
+    "email": "michaelj@example.com",
+    "phone": "555-555-1212",
+    "address": "789 Elm St,  Smallville USA, 34567",
+    "membership": "Base",
     "orders": [
       {
-        "id": 39,
-        "productId": 11,
+        "id": 20,
+        "productId": 5,
         "quantity": 2,
-        "total": 220.0,
-        "date": "3/30/2023",
+        "total": 120.0,
+        "date": "2/28/2023",
+        "name": "BaseCamp Folding Table",
+        "unitprice": 60.0,
+        "category": "Camping Tables",
+        "brand": "CampBuddy",
+        "description": "CampBuddy's BaseCamp Folding Table is an adventurer's best friend. Lightweight yet powerful, the table is a testament to fun-meets-function and will elevate any outing to new heights. Crafted from resilient, rust-resistant aluminum, the table boasts a generously sized 48 x 24 inches tabletop, perfect for meal times, games and more. The foldable design is a godsend for on-the-go explorers. Adjustable legs rise to the occasion to conquer uneven terrains and offer height versatility, while the built-in handle simplifies transportation. Additional features like non-slip feet, integrated cup holders and mesh pockets add a pinch of finesse. Quick to set up without the need for extra tools, this table is a silent yet indispensable sidekick during camping, picnics, and other outdoor events. Don't miss out on the opportunity to take your outdoor experiences to a new level with the BaseCamp Folding Table. Get yours today and embark on new adventures tomorrow!"
+      },
+      {
+        "id": 38,
+        "productId": 11,
+        "quantity": 1,
+        "total": 110.0,
+        "date": "2/25/2023",
         "name": "TrailWalker Hiking Shoes",
         "unitprice": 110.0,
         "category": "Hiking Footwear",
@@ -98,23 +45,11 @@
         "description": "Meet the TrekReady TrailWalker Hiking Shoes, the ideal companion for all your outdoor adventures. Constructed with synthetic leather and breathable mesh, these shoes are tough as nails yet surprisingly airy. Their cushioned insoles offer fabulous comfort for long hikes, while the supportive midsoles and traction outsoles with multidirectional lugs ensure stability and excellent grip. A quick-lace system, padded collar and tongue, and reflective accents make these shoes a dream to wear. From combating rough terrain with the reinforced toe cap and heel, to keeping off trail debris with the protective mudguard, the TrailWalker Hiking Shoes have you covered. These waterproof warriors are made to endure all weather conditions. But they're not just about being rugged, they're light as a feather too, minimizing fatigue during epic hikes. Each pair can be customized for a perfect fit with removable insoles and availability in multiple sizes and widths. Navigate hikes comfortably and confidently with the TrailWalker Hiking Shoes. Adventure, here you come!"
       },
       {
-        "id": 3,
-        "productId": 1,
-        "quantity": 3,
-        "total": 750.0,
-        "date": "3/18/2023",
-        "name": "TrailMaster X4 Tent",
-        "unitprice": 250.0,
-        "category": "Tents",
-        "brand": "OutdoorLiving",
-        "description": "Unveiling the TrailMaster X4 Tent from OutdoorLiving, your home away from home for your next camping adventure. Crafted from durable polyester, this tent boasts a spacious interior perfect for four occupants. It ensures your dryness under drizzly skies thanks to its water-resistant construction, and the accompanying rainfly adds an extra layer of weather protection. It offers refreshing airflow and bug defence, courtesy of its mesh panels. Accessibility is not an issue with its multiple doors and interior pockets that keep small items tidy. Reflective guy lines grant better visibility at night, and the freestanding design simplifies setup and relocation. With the included carry bag, transporting this convenient abode becomes a breeze. Be it an overnight getaway or a week-long nature escapade, the TrailMaster X4 Tent provides comfort, convenience, and concord with the great outdoors. Comes with a two-year limited warranty to ensure customer satisfaction."
-      },
-      {
-        "id": 12,
+        "id": 11,
         "productId": 3,
-        "quantity": 2,
-        "total": 240.0,
-        "date": "2/20/2023",
+        "quantity": 1,
+        "total": 120.0,
+        "date": "1/15/2023",
         "name": "Summit Breeze Jacket",
         "unitprice": 120.0,
         "category": "Hiking Clothing",
@@ -122,10 +57,75 @@
         "description": "Discover the joy of hiking with MountainStyle's Summit Breeze Jacket. This lightweight jacket is your perfect companion for outdoor adventures. Sporting a trail-ready, windproof design and a water-resistant fabric, it's ready to withstand any weather. The breathable polyester material and adjustable cuffs keep you comfortable, whether you're ascending a mountain or strolling through a park. And its sleek black color adds style to function. The jacket features a full-zip front closure, adjustable hood, and secure zippered pockets. Experience the comfort of its inner lining and the convenience of its packable design. Crafted for night trekkers too, the jacket has reflective accents for enhanced visibility. Rugged yet chic, the Summit Breeze Jacket is more than a hiking essential, it's the gear that inspires you to reach new heights. Choose adventure, choose the Summit Breeze Jacket."
       }
     ],
-    "_rid": "JjtiAM6RO-gGAAAAAAAAAA==",
-    "_self": "dbs/JjtiAA==/colls/JjtiAM6RO-g=/docs/JjtiAM6RO-gGAAAAAAAAAA==/",
-    "_etag": "\"01006efd-0000-0100-0000-653c64140000\"",
+    "_rid": "1HYwAIeQAxAKAAAAAAAAAA==",
+    "_self": "dbs/1HYwAA==/colls/1HYwAIeQAxA=/docs/1HYwAIeQAxAKAAAAAAAAAA==/",
+    "_etag": "\"3b002ba6-0000-4700-0000-65dfe9190000\"",
     "_attachments": "attachments/",
-    "_ts": 1698456596
+    "_ts": 1709173017
+  },
+  "context": {
+    "citations": [
+      {
+        "id": "153",
+        "content": "# Information about product item_number: 7\n\nCozyNights Sleeping Bag, price $100,\n\n\n\nIf Membership status \"Gold\":  Gold members can return their sleeping bags within 60 days of purchase for a full refund or exchange. The product must be unused and in its original packaging.\n\nIf Membership status \"Platinum\":  Platinum members can return their sleeping bags within 90 days of purchase for a full refund or exchange. The product must be unused and in its original packaging. Additionally, Platinum members receive a 10% discount on all sleeping bags purchases but from the same product brand.\n\nReviews\n\n31) Rating: 5\n   Review: The CozyNights Sleeping Bag is perfect for my camping trips. It's lightweight, warm, and the compact design makes it easy to pack. The included stuff sack is a great bonus. Highly recommend!\n\n32) Rating: 4\n   Review: I bought the CozyNights Sleeping Bag, and while it's warm and lightweight, I wish it had a built-in pillow. Overall, it's a good sleeping bag for camping."
+      },
+      {
+        "id": "90",
+        "content": "# Information about product item_number: 6\n\nEcoFire Camping Stove, price $80,\n\n\n\nReturn Policy\n\nIf Membership status \"None\":  If you are not satisfied with your purchase, you can return it within 30 days for a full refund. The product must be unused and in its original packaging.\n\nIf Membership status \"Gold\":  Gold members can return their camping stoves within 60 days of purchase for a full refund or exchange. The product must be unused and in its original packaging.\n\nIf Membership status \"Platinum\":  Platinum members can return their camping stoves within 90 days of purchase for a full refund or exchange. The product must be unused and in its original packaging. Additionally, Platinum members receive a 10% discount on all camping stove purchases but from the same product brand.\n\nReviews\n\n26) Rating: 5\n   Review: The EcoFire Camping Stove is a fantastic piece of gear. It's compact, fuel-efficient, and easy to use. The wind protection feature is a game changer. Highly recommend it for camp cooking!"
+      }
+    ],
+    "customer_data": {
+      "id": "3",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "age": 45,
+      "email": "michaelj@example.com",
+      "phone": "555-555-1212",
+      "address": "789 Elm St,  Smallville USA, 34567",
+      "membership": "Base",
+      "orders": [
+        {
+          "id": 20,
+          "productId": 5,
+          "quantity": 2,
+          "total": 120.0,
+          "date": "2/28/2023",
+          "name": "BaseCamp Folding Table",
+          "unitprice": 60.0,
+          "category": "Camping Tables",
+          "brand": "CampBuddy",
+          "description": "CampBuddy's BaseCamp Folding Table is an adventurer's best friend. Lightweight yet powerful, the table is a testament to fun-meets-function and will elevate any outing to new heights. Crafted from resilient, rust-resistant aluminum, the table boasts a generously sized 48 x 24 inches tabletop, perfect for meal times, games and more. The foldable design is a godsend for on-the-go explorers. Adjustable legs rise to the occasion to conquer uneven terrains and offer height versatility, while the built-in handle simplifies transportation. Additional features like non-slip feet, integrated cup holders and mesh pockets add a pinch of finesse. Quick to set up without the need for extra tools, this table is a silent yet indispensable sidekick during camping, picnics, and other outdoor events. Don't miss out on the opportunity to take your outdoor experiences to a new level with the BaseCamp Folding Table. Get yours today and embark on new adventures tomorrow!"
+        },
+        {
+          "id": 38,
+          "productId": 11,
+          "quantity": 1,
+          "total": 110.0,
+          "date": "2/25/2023",
+          "name": "TrailWalker Hiking Shoes",
+          "unitprice": 110.0,
+          "category": "Hiking Footwear",
+          "brand": "TrekReady",
+          "description": "Meet the TrekReady TrailWalker Hiking Shoes, the ideal companion for all your outdoor adventures. Constructed with synthetic leather and breathable mesh, these shoes are tough as nails yet surprisingly airy. Their cushioned insoles offer fabulous comfort for long hikes, while the supportive midsoles and traction outsoles with multidirectional lugs ensure stability and excellent grip. A quick-lace system, padded collar and tongue, and reflective accents make these shoes a dream to wear. From combating rough terrain with the reinforced toe cap and heel, to keeping off trail debris with the protective mudguard, the TrailWalker Hiking Shoes have you covered. These waterproof warriors are made to endure all weather conditions. But they're not just about being rugged, they're light as a feather too, minimizing fatigue during epic hikes. Each pair can be customized for a perfect fit with removable insoles and availability in multiple sizes and widths. Navigate hikes comfortably and confidently with the TrailWalker Hiking Shoes. Adventure, here you come!"
+        },
+        {
+          "id": 11,
+          "productId": 3,
+          "quantity": 1,
+          "total": 120.0,
+          "date": "1/15/2023",
+          "name": "Summit Breeze Jacket",
+          "unitprice": 120.0,
+          "category": "Hiking Clothing",
+          "brand": "MountainStyle",
+          "description": "Discover the joy of hiking with MountainStyle's Summit Breeze Jacket. This lightweight jacket is your perfect companion for outdoor adventures. Sporting a trail-ready, windproof design and a water-resistant fabric, it's ready to withstand any weather. The breathable polyester material and adjustable cuffs keep you comfortable, whether you're ascending a mountain or strolling through a park. And its sleek black color adds style to function. The jacket features a full-zip front closure, adjustable hood, and secure zippered pockets. Experience the comfort of its inner lining and the convenience of its packable design. Crafted for night trekkers too, the jacket has reflective accents for enhanced visibility. Rugged yet chic, the Summit Breeze Jacket is more than a hiking essential, it's the gear that inspires you to reach new heights. Choose adventure, choose the Summit Breeze Jacket."
+        }
+      ],
+      "_rid": "1HYwAIeQAxAKAAAAAAAAAA==",
+      "_self": "dbs/1HYwAA==/colls/1HYwAIeQAxA=/docs/1HYwAIeQAxAKAAAAAAAAAA==/",
+      "_etag": "\"3b002ba6-0000-4700-0000-65dfe9190000\"",
+      "_attachments": "attachments/",
+      "_ts": 1709173017
+    }
   }
 }

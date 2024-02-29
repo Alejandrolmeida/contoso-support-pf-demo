@@ -1,0 +1,578 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a_0",
+      "status": "Completed",
+      "error": null,
+      "inputs": {
+        "question": "Tengo que ir a correr a la montaña con una amiga ",
+        "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥",
+        "chat_history": [
+          {
+            "inputs": {
+              "customerId": "6",
+              "question": "what did I last order?"
+            },
+            "outputs": {
+              "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥"
+            }
+          },
+          {
+            "inputs": {
+              "customerId": "6",
+              "question": "and what is the tent's water proof rating"
+            },
+            "outputs": {
+              "answer": "I am not sure🌳🔥"
+            }
+          }
+        ]
+      },
+      "output": {
+        "gpt_coherence": 1.0
+      },
+      "metrics": {
+        "gpt_coherence": 1.0,
+        "gpt_coherence_pass_rate(%)": 0.0
+      },
+      "request": null,
+      "parent_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a",
+      "root_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a",
+      "source_run_id": null,
+      "flow_id": "QnA_gpt_coherence_eval",
+      "start_time": "2024-02-29T07:28:56.154535Z",
+      "end_time": "2024-02-29T07:28:57.431042Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "flow",
+          "node_name": "flow",
+          "type": "Flow",
+          "start_time": 1709191736.154535,
+          "end_time": 1709191737.431042,
+          "children": [
+            {
+              "name": "AzureOpenAI.chat",
+              "type": "Tool",
+              "inputs": {
+                "prompt": "System:\nYou are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric.\n\nUser:\nCoherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about climate change and its effects on the environment?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nconversation_history: \n{% for item in chat_history %}\n  - user: {{ item.inputs }}\n    assistant: {{ item.outputs }}\n{% endfor %} \nquestion: {{question}}\nanswer: {{answer}}\nstars:",
+                "question": "Tengo que ir a correr a la montaña con una amiga ",
+                "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥",
+                "max_tokens": 256,
+                "deployment_name": "gpt-4",
+                "temperature": 0.0,
+                "chat_history": [
+                  {
+                    "inputs": {
+                      "customerId": "6",
+                      "question": "what did I last order?"
+                    },
+                    "outputs": {
+                      "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥"
+                    }
+                  },
+                  {
+                    "inputs": {
+                      "customerId": "6",
+                      "question": "and what is the tent's water proof rating"
+                    },
+                    "outputs": {
+                      "answer": "I am not sure🌳🔥"
+                    }
+                  }
+                ]
+              },
+              "output": "1",
+              "start_time": 1709191736.157084,
+              "end_time": 1709191737.427095,
+              "error": null,
+              "children": [
+                {
+                  "name": "openai.resources.chat.completions.Completions.create",
+                  "type": "LLM",
+                  "inputs": {
+                    "model": "gpt-4",
+                    "messages": [
+                      {
+                        "role": "system",
+                        "content": "You are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric."
+                      },
+                      {
+                        "role": "user",
+                        "content": "Coherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about climate change and its effects on the environment?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nconversation_history: \n  - user: {'customerId': '6', 'question': 'what did I last order?'}\n    assistant: {'answer': \"Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥\"}\n  - user: {'customerId': '6', 'question': \"and what is the tent's water proof rating\"}\n    assistant: {'answer': 'I am not sure🌳🔥'}\n \nquestion: Tengo que ir a correr a la montaña con una amiga \nanswer: Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥\nstars:"
+                      }
+                    ],
+                    "temperature": 0.0,
+                    "top_p": 1.0,
+                    "n": 1,
+                    "stream": false,
+                    "stop": null,
+                    "max_tokens": 256,
+                    "presence_penalty": 0.0,
+                    "frequency_penalty": 0.0,
+                    "logit_bias": {},
+                    "user": "",
+                    "response_format": null
+                  },
+                  "output": {
+                    "id": "chatcmpl-8xV8jujUwchFUq7DisOwKuP0ntN8C",
+                    "choices": [
+                      {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                          "content": "1",
+                          "role": "assistant",
+                          "function_call": null,
+                          "tool_calls": null
+                        },
+                        "content_filter_results": {
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ],
+                    "created": 1709191745,
+                    "model": "gpt-4",
+                    "object": "chat.completion",
+                    "system_fingerprint": null,
+                    "usage": {
+                      "completion_tokens": 1,
+                      "prompt_tokens": 700,
+                      "total_tokens": 701
+                    },
+                    "prompt_filter_results": [
+                      {
+                        "prompt_index": 0,
+                        "content_filter_results": {
+                          "hate": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "self_harm": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "sexual": {
+                            "filtered": false,
+                            "severity": "safe"
+                          },
+                          "violence": {
+                            "filtered": false,
+                            "severity": "safe"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "start_time": 1709191736.16146,
+                  "end_time": 1709191737.426976,
+                  "error": null,
+                  "children": [],
+                  "node_name": null,
+                  "parent_id": "b0115d71-60b3-4ec6-b14d-e6470a6995c4",
+                  "id": "bd7e4633-8bb1-42b0-abeb-c83694cc6661",
+                  "system_metrics": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 700,
+                    "total_tokens": 701
+                  }
+                }
+              ],
+              "node_name": "coherence_score",
+              "parent_id": "",
+              "id": "b0115d71-60b3-4ec6-b14d-e6470a6995c4",
+              "system_metrics": {
+                "completion_tokens": 1,
+                "prompt_tokens": 700,
+                "total_tokens": 701
+              }
+            },
+            {
+              "name": "concat_results",
+              "type": "Tool",
+              "inputs": {
+                "coherence_score": "1"
+              },
+              "output": {
+                "gpt_coherence": 1.0,
+                "gpt_coherence_pass_rate": 0
+              },
+              "start_time": 1709191737.429808,
+              "end_time": 1709191737.430108,
+              "error": null,
+              "children": [],
+              "node_name": "concat_scores",
+              "parent_id": "",
+              "id": "9a633d06-b6c1-48d8-a8a8-55a95632ff73",
+              "system_metrics": {}
+            }
+          ],
+          "system_metrics": {
+            "duration": 1.276507,
+            "prompt_tokens": 700,
+            "completion_tokens": 1,
+            "total_tokens": 701
+          }
+        }
+      ],
+      "variant_id": "",
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "duration": 1.276507,
+        "prompt_tokens": 700,
+        "completion_tokens": 1,
+        "total_tokens": 701
+      },
+      "result": {
+        "gpt_coherence": 1.0
+      },
+      "upload_metrics": false
+    }
+  ],
+  "node_runs": [
+    {
+      "node": "coherence_score",
+      "flow_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a",
+      "run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a_coherence_score_0",
+      "status": "Completed",
+      "inputs": {
+        "question": "Tengo que ir a correr a la montaña con una amiga ",
+        "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥",
+        "max_tokens": 256,
+        "deployment_name": "gpt-4",
+        "temperature": 0.0,
+        "chat_history": [
+          {
+            "inputs": {
+              "customerId": "6",
+              "question": "what did I last order?"
+            },
+            "outputs": {
+              "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥"
+            }
+          },
+          {
+            "inputs": {
+              "customerId": "6",
+              "question": "and what is the tent's water proof rating"
+            },
+            "outputs": {
+              "answer": "I am not sure🌳🔥"
+            }
+          }
+        ]
+      },
+      "output": "1",
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a_0",
+      "start_time": "2024-02-29T07:28:56.156576Z",
+      "end_time": "2024-02-29T07:28:57.428176Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "AzureOpenAI.chat",
+          "type": "Tool",
+          "inputs": {
+            "prompt": "System:\nYou are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric.\n\nUser:\nCoherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about climate change and its effects on the environment?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nconversation_history: \n{% for item in chat_history %}\n  - user: {{ item.inputs }}\n    assistant: {{ item.outputs }}\n{% endfor %} \nquestion: {{question}}\nanswer: {{answer}}\nstars:",
+            "question": "Tengo que ir a correr a la montaña con una amiga ",
+            "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥",
+            "max_tokens": 256,
+            "deployment_name": "gpt-4",
+            "temperature": 0.0,
+            "chat_history": [
+              {
+                "inputs": {
+                  "customerId": "6",
+                  "question": "what did I last order?"
+                },
+                "outputs": {
+                  "answer": "Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥"
+                }
+              },
+              {
+                "inputs": {
+                  "customerId": "6",
+                  "question": "and what is the tent's water proof rating"
+                },
+                "outputs": {
+                  "answer": "I am not sure🌳🔥"
+                }
+              }
+            ]
+          },
+          "output": "1",
+          "start_time": 1709191736.157084,
+          "end_time": 1709191737.427095,
+          "error": null,
+          "children": [
+            {
+              "name": "openai.resources.chat.completions.Completions.create",
+              "type": "LLM",
+              "inputs": {
+                "model": "gpt-4",
+                "messages": [
+                  {
+                    "role": "system",
+                    "content": "You are an AI assistant. You will be given the definition of an evaluation metric for assessing the quality of an answer in a question-answering task. Your job is to compute an accurate evaluation score using the provided evaluation metric."
+                  },
+                  {
+                    "role": "user",
+                    "content": "Coherence of an answer is measured by how well all the sentences fit together and sound naturally as a whole. Consider the overall quality of the answer when evaluating coherence. Given the question and answer, score the coherence of answer between one to five stars using the following rating scale:\nOne star: the answer completely lacks coherence\nTwo stars: the answer mostly lacks coherence\nThree stars: the answer is partially coherent\nFour stars: the answer is mostly coherent\nFive stars: the answer has perfect coherency\n\nThis rating value should always be an integer between 1 and 5. So the rating produced should be 1 or 2 or 3 or 4 or 5.\n\nquestion: What is your favorite indoor activity and why do you enjoy it?\nanswer: I like pizza. The sun is shining.\nstars: 1\n\nquestion: Can you describe your favorite movie without giving away any spoilers?\nanswer: It is a science fiction movie. There are dinosaurs. The actors eat cake. People must stop the villain.\nstars: 2\n\nquestion: What are some benefits of regular exercise?\nanswer: Regular exercise improves your mood. A good workout also helps you sleep better. Trees are green.\nstars: 3\n\nquestion: How do you cope with stress in your daily life?\nanswer: I usually go for a walk to clear my head. Listening to music helps me relax as well. Stress is a part of life, but we can manage it through some activities.\nstars: 4\n\nquestion: What can you tell me about climate change and its effects on the environment?\nanswer: Climate change has far-reaching effects on the environment. Rising temperatures result in the melting of polar ice caps, contributing to sea-level rise. Additionally, more frequent and severe weather events, such as hurricanes and heatwaves, can cause disruption to ecosystems and human societies alike.\nstars: 5\n\nconversation_history: \n  - user: {'customerId': '6', 'question': 'what did I last order?'}\n    assistant: {'answer': \"Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥\"}\n  - user: {'customerId': '6', 'question': \"and what is the tent's water proof rating\"}\n    assistant: {'answer': 'I am not sure🌳🔥'}\n \nquestion: Tengo que ir a correr a la montaña con una amiga \nanswer: Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with water-resistant construction and mesh panels for airflow and bug defense. 🌧️🪰 It even comes with a two-year limited warranty for your peace of mind. Enjoy your next camping adventure! 🌳🔥\nstars:"
+                  }
+                ],
+                "temperature": 0.0,
+                "top_p": 1.0,
+                "n": 1,
+                "stream": false,
+                "stop": null,
+                "max_tokens": 256,
+                "presence_penalty": 0.0,
+                "frequency_penalty": 0.0,
+                "logit_bias": {},
+                "user": "",
+                "response_format": null
+              },
+              "output": {
+                "id": "chatcmpl-8xV8jujUwchFUq7DisOwKuP0ntN8C",
+                "choices": [
+                  {
+                    "finish_reason": "stop",
+                    "index": 0,
+                    "logprobs": null,
+                    "message": {
+                      "content": "1",
+                      "role": "assistant",
+                      "function_call": null,
+                      "tool_calls": null
+                    },
+                    "content_filter_results": {
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ],
+                "created": 1709191745,
+                "model": "gpt-4",
+                "object": "chat.completion",
+                "system_fingerprint": null,
+                "usage": {
+                  "completion_tokens": 1,
+                  "prompt_tokens": 700,
+                  "total_tokens": 701
+                },
+                "prompt_filter_results": [
+                  {
+                    "prompt_index": 0,
+                    "content_filter_results": {
+                      "hate": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "self_harm": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "sexual": {
+                        "filtered": false,
+                        "severity": "safe"
+                      },
+                      "violence": {
+                        "filtered": false,
+                        "severity": "safe"
+                      }
+                    }
+                  }
+                ]
+              },
+              "start_time": 1709191736.16146,
+              "end_time": 1709191737.426976,
+              "error": null,
+              "children": [],
+              "node_name": null,
+              "parent_id": "b0115d71-60b3-4ec6-b14d-e6470a6995c4",
+              "id": "bd7e4633-8bb1-42b0-abeb-c83694cc6661",
+              "system_metrics": {
+                "completion_tokens": 1,
+                "prompt_tokens": 700,
+                "total_tokens": 701
+              }
+            }
+          ],
+          "node_name": "coherence_score",
+          "parent_id": "",
+          "id": "b0115d71-60b3-4ec6-b14d-e6470a6995c4",
+          "system_metrics": {
+            "completion_tokens": 1,
+            "prompt_tokens": 700,
+            "total_tokens": 701
+          }
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "completion_tokens": 1,
+        "prompt_tokens": 700,
+        "total_tokens": 701,
+        "duration": 1.2716
+      },
+      "result": "1"
+    },
+    {
+      "node": "concat_scores",
+      "flow_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a",
+      "run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a_concat_scores_0",
+      "status": "Completed",
+      "inputs": {
+        "coherence_score": "1"
+      },
+      "output": {
+        "gpt_coherence": 1.0,
+        "gpt_coherence_pass_rate": 0
+      },
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a_0",
+      "start_time": "2024-02-29T07:28:57.429473Z",
+      "end_time": "2024-02-29T07:28:57.430333Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "concat_results",
+          "type": "Tool",
+          "inputs": {
+            "coherence_score": "1"
+          },
+          "output": {
+            "gpt_coherence": 1.0,
+            "gpt_coherence_pass_rate": 0
+          },
+          "start_time": 1709191737.429808,
+          "end_time": 1709191737.430108,
+          "error": null,
+          "children": [],
+          "node_name": "concat_scores",
+          "parent_id": "",
+          "id": "9a633d06-b6c1-48d8-a8a8-55a95632ff73",
+          "system_metrics": {}
+        }
+      ],
+      "variant_id": "",
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 0.00086
+      },
+      "result": {
+        "gpt_coherence": 1.0,
+        "gpt_coherence_pass_rate": 0
+      }
+    },
+    {
+      "node": "aggregate_variants_results",
+      "flow_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a",
+      "run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a_aggregate_variants_results_reduce",
+      "status": "Completed",
+      "inputs": {
+        "results": [
+          {
+            "gpt_coherence": 1.0,
+            "gpt_coherence_pass_rate": 0
+          }
+        ]
+      },
+      "output": {
+        "gpt_coherence": 1.0,
+        "gpt_coherence_pass_rate": 0.0
+      },
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "ee65eea4-c0e9-4a1d-b947-e3dfbc8e419a",
+      "start_time": "2024-02-29T07:28:57.432435Z",
+      "end_time": "2024-02-29T07:28:57.433848Z",
+      "index": null,
+      "api_calls": [
+        {
+          "name": "aggregate_variants_results",
+          "type": "Tool",
+          "inputs": {
+            "results": [
+              {
+                "gpt_coherence": 1.0,
+                "gpt_coherence_pass_rate": 0
+              }
+            ]
+          },
+          "output": {
+            "gpt_coherence": 1.0,
+            "gpt_coherence_pass_rate": 0.0
+          },
+          "start_time": 1709191737.432769,
+          "end_time": 1709191737.433587,
+          "error": null,
+          "children": [],
+          "node_name": "aggregate_variants_results",
+          "parent_id": "",
+          "id": "610892db-7474-48d8-96af-82aad70f6432",
+          "system_metrics": {}
+        }
+      ],
+      "variant_id": null,
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 0.001413
+      },
+      "result": {
+        "gpt_coherence": 1.0,
+        "gpt_coherence_pass_rate": 0.0
+      }
+    }
+  ]
+}

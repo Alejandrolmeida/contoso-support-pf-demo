@@ -5,8 +5,31 @@ environment:
 inputs:
   question:
     type: string
+    default: "Tengo que ir a correr a la montaña con una amiga "
   answer:
     type: string
+    default: Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from
+      OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants, with
+      water-resistant construction and mesh panels for airflow and bug defense.
+      🌧️🪰 It even comes with a two-year limited warranty for your peace of
+      mind. Enjoy your next camping adventure! 🌳🔥
+  chat_history:
+    type: list
+    default:
+    - inputs:
+        customerId: "6"
+        question: what did I last order?
+      outputs:
+        answer: Hey Emily! 🌟 Your last order was the TrailMaster X4 Tent from
+          OutdoorLiving. 🏕️ It's a spacious tent perfect for four occupants,
+          with water-resistant construction and mesh panels for airflow and bug
+          defense. 🌧️🪰 It even comes with a two-year limited warranty for your
+          peace of mind. Enjoy your next camping adventure! 🌳🔥
+    - inputs:
+        customerId: "6"
+        question: and what is the tent's water proof rating
+      outputs:
+        answer: I am not sure🌳🔥
 outputs:
   gpt_coherence:
     type: object
@@ -23,7 +46,8 @@ nodes:
     max_tokens: 256
     deployment_name: gpt-4
     temperature: 0
-  connection: azure_open_ai_connection
+    chat_history: ${inputs.chat_history}
+  connection: aoai-connection
   api: chat
 - name: concat_scores
   type: python

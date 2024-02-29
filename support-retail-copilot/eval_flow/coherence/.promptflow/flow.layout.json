@@ -1,28 +1,28 @@
 {
   "nodeLayouts": {
     "inputs": {
-      "x": 187,
-      "y": 62,
+      "x": 455,
+      "y": 42,
       "index": -1
     },
     "outputs": {
-      "x": 362,
-      "y": 392,
+      "x": 550,
+      "y": 444,
       "index": -1
     },
     "coherence_score": {
-      "x": 187,
-      "y": 172,
+      "x": 305,
+      "y": 176,
       "index": 0
     },
     "concat_scores": {
-      "x": 187,
-      "y": 282,
+      "x": 305,
+      "y": 310,
       "index": 1
     },
     "aggregate_variants_results": {
-      "x": 12,
-      "y": 392,
+      "x": 140,
+      "y": 444,
       "index": 2
     }
   },

@@ -13,6 +13,11 @@
           "type": [
             "string"
           ]
+        },
+        "chat_history": {
+          "type": [
+            "string"
+          ]
         }
       },
       "source": "coherence_score.jinja2"
