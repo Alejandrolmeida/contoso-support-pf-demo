@@ -114,7 +114,7 @@ async def call_chat(question: str, question_id: str, context=None):
                                                              context=context,
                                                              stream=True)
 
-    await cl.Message(content=f"#### Messages:\n```yaml\n{yaml.dump(message_history)}\n```\n#### Context:\n```yaml\n{yaml.dump(context)}\n```", parent_id=question_id).send()
+    await cl.Message(content=f"#### Messages:\n```yaml\n{yaml.dump(message_history)}\n```\n#### Context:\n```yaml\n{yaml.dump(context)}\n```", id=question_id).send()
 
     msg = cl.Message(content="")
     context = None
@@ -128,18 +128,18 @@ async def call_chat(question: str, question_id: str, context=None):
                 # add some metadata to help with debugging
                 if "context" in context:
                     customer_info = {k: v for k, v in context["context"]["customer_data"].items() if k != "orders" and not k.startswith("_")}
-                    customer_id = await cl.Message(content=f"#### Customer Data:\n```json\n{json.dumps(customer_info, indent=2)}\n```", parent_id=question_id).send()
+                    customer_id = await cl.Message(content=f"#### Customer Data:\n```json\n{json.dumps(customer_info, indent=2)}\n```", id=question_id).send()
                     customer_orders = context["context"]["customer_data"].get("orders", [])
                     for order in customer_orders:
-                        await cl.Message(content=f"## Order {order['id']}\n```json\n{json.dumps(order, indent=2)}\n```", parent_id=customer_id).send()
+                        await cl.Message(content=f"## Order {order['id']}\n```json\n{json.dumps(order, indent=2)}\n```", id=customer_id).send()
 
-                    context_id = await cl.Message(content=f"#### Citations:\n", parent_id=question_id).send()
+                    context_id = await cl.Message(content=f"#### Citations:\n", id=question_id).send()
                     for item in context["context"]["citations"]:
-                        await cl.Message(content=f"##{item['content']}", parent_id=context_id).send()
+                        await cl.Message(content=f"##{item['content']}", id=context_id).send()
                 if "query_rewrite" in context:
-                    await cl.Message(content=f"#### Query Rewrite:\n{context['query_rewrite']}", parent_id=question_id).send()
+                    await cl.Message(content=f"#### Query Rewrite:\n{context['query_rewrite']}", id=question_id).send()
 
-    await cl.Message(content=f"#### Download as testcase:\n```json\n{json.dumps(test_case)}\n```", parent_id=question_id).send()
+    await cl.Message(content=f"#### Download as testcase:\n```json\n{json.dumps(test_case)}\n```", id=question_id).send()
 
     message_history.append({"role": "assistant", "content": msg.content})
     messages.append({"role": "assistant", "content": msg.content, "context": context})
