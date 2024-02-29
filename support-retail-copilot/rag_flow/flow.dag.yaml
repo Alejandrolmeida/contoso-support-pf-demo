@@ -21,30 +21,38 @@ inputs:
       outputs:
         answer: I am not sure🌳🔥
     is_chat_history: true
+    is_chat_input: false
   question:
     type: string
-    default: "Tengo que ir a correr a la montaña con una amiga "
+    default: ""
     is_chat_history: false
+    is_chat_input: true
   customerId:
     type: string
     default: "6"
     is_chat_history: false
+    is_chat_input: false
 outputs:
   answer:
     type: string
     reference: ${llm_call.output}
+    is_chat_output: true
   citations:
     type: object
     reference: ${retrieve_support_documentation.output}
+    is_chat_output: false
   customer_data:
     type: object
     reference: ${customer_lookup.output}
+    is_chat_output: false
   context:
     type: object
     reference: ${context.output}
+    is_chat_output: false
   query_rewrite:
     type: string
     reference: ${rewrite_query.output}
+    is_chat_output: false
 nodes:
 - name: question_embedding
   type: python

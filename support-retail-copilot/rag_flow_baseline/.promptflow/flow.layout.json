@@ -30,8 +30,8 @@
       "index": 2
     },
     "customer_prompt": {
-      "x": 140,
-      "y": 444,
+      "x": 138,
+      "y": 455,
       "index": 3
     },
     "llm_call": {

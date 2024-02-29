@@ -173,6 +173,22 @@
       },
       "source": "context.py",
       "function": "context"
+    },
+    "customer_prompt2.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "customer": {
+          "type": [
+            "string"
+          ]
+        },
+        "documentation": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "customer_prompt2.jinja2"
     }
   }
 }

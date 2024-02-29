@@ -62,8 +62,8 @@ nodes:
     answer: ${inputs.answer}
     max_tokens: 256
     deployment_name: gpt-4
-    temperature: 0
-  connection: ignite-aoai
+    temperature: 0.7
+  connection: aoai-connection
   api: chat
 - name: coherence_concat_scores
   type: python
@@ -91,8 +91,8 @@ nodes:
     answer: ${inputs.answer}
     max_tokens: 256
     deployment_name: gpt-4
-    temperature: 0
-  connection: ignite-aoai
+    temperature: 0.7
+  connection: aoai-connection
   api: chat
 - name: fluency_concat_scores
   type: python
@@ -120,9 +120,9 @@ nodes:
     answer: ${inputs.answer}
     max_tokens: 256
     deployment_name: gpt-4
-    temperature: 0
+    temperature: 0.7
     question: ${inputs.question}
-  connection: ignite-aoai
+  connection: aoai-connection
   api: chat
 - name: groundedness_concat_scores
   type: python
@@ -151,8 +151,8 @@ nodes:
     answer: ${inputs.answer}
     max_tokens: 256
     deployment_name: gpt-4
-    temperature: 0
-  connection: ignite-aoai
+    temperature: 0.7
+  connection: aoai-connection
   api: chat
 - name: relevance_concat_scores
   type: python

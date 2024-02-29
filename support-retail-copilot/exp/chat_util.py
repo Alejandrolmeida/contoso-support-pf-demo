@@ -39,7 +39,7 @@ class PromptFlowChat(ChatApp):
         
     def __call__(self, messages, stream=False, context={}, session_state={}) -> str:
         return self.chat_completion(messages=messages, stream=stream, context=context)
-
+   
     def stream_response(self, answer, result):
         response = {"object": "chat.completion.chunk", "choices": []}
         response["choices"].append({"index": 0, 
@@ -146,8 +146,7 @@ class AzureOpenAIChat(ChatApp):
         elif env_var.startswith("$"):
             return os.environ[env_var[1:]]
         else:
-            return env_var
-        
+            return env_var      
 
     def __call__(self, messages, stream=False, context={}, session_state={}) -> str:
         return self.chat_completion(messages=messages, stream=stream, context=context, session_state=session_state)

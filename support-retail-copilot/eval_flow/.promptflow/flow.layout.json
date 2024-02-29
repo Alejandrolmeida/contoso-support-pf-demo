@@ -1,73 +1,73 @@
 {
   "nodeLayouts": {
     "inputs": {
-      "x": 712,
-      "y": 62,
+      "x": 960,
+      "y": 42,
       "index": -1
     },
     "outputs": {
-      "x": 712,
-      "y": 392,
+      "x": 966,
+      "y": 667,
       "index": -1
     },
     "coherence_score": {
-      "x": 1412,
-      "y": 172,
+      "x": 383,
+      "y": 181,
       "index": 0
     },
     "coherence_concat_scores": {
-      "x": 1412,
-      "y": 282,
+      "x": 381,
+      "y": 320,
       "index": 1
     },
     "coherence_aggregate_variants_results": {
-      "x": 1412,
-      "y": 392,
+      "x": 385,
+      "y": 455,
       "index": 2
     },
     "fluency_score": {
-      "x": 12,
-      "y": 172,
+      "x": 645,
+      "y": 176,
       "index": 3
     },
     "fluency_concat_scores": {
-      "x": 12,
-      "y": 282,
+      "x": 645,
+      "y": 310,
       "index": 4
     },
     "fluency_aggregate_variants_results": {
-      "x": 12,
-      "y": 392,
+      "x": 647,
+      "y": 452,
       "index": 5
     },
     "groundedness_score": {
-      "x": 537,
-      "y": 172,
+      "x": 975,
+      "y": 176,
       "index": 6
     },
     "groundedness_concat_scores": {
-      "x": 537,
-      "y": 282,
+      "x": 975,
+      "y": 310,
       "index": 7
     },
     "groundedness_aggregate_variants_results": {
-      "x": 362,
-      "y": 392,
+      "x": 980,
+      "y": 455,
       "index": 8
     },
     "relevance_score": {
-      "x": 887,
-      "y": 172,
+      "x": 1305,
+      "y": 176,
       "index": 9
     },
     "relevance_concat_scores": {
-      "x": 887,
-      "y": 282,
+      "x": 1305,
+      "y": 310,
       "index": 10
     },
     "relevance_aggregate_variants_results": {
-      "x": 1062,
-      "y": 392,
+      "x": 1307,
+      "y": 449,
       "index": 11
     }
   },

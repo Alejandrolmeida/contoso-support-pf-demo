@@ -5,6 +5,7 @@ import promptflow as pf
 import os
 import yaml, json
 
+
 def clear_chat_history():
     cl.user_session.set("message_history", [])
     cl.user_session.set("messages", [])
@@ -22,7 +23,6 @@ def start_chat():
         customer_id = "7"
     )
     cl.user_session.set("config", config)
-
 
 @cl.on_message
 async def main(message: cl.Message):
@@ -80,7 +80,6 @@ async def activate_promptflow(command: str, command_id: str):
         await cl.Message(content=f"#### Unknown promptflow `{promptflow}`").send()
         return
     await cl.Message(content=f"#### Set promptflow to `{config['promptflow']}`").send()
-
 
 async def config(command: str, command_id: str):
     config = cl.user_session.get("config")
@@ -221,8 +220,6 @@ async def run_test(command: str, command_id: str):
     await msg.send()
     await call_chat(test_case["question"], msg.id, context={"customerId": test_case["customerId"]})
     await call_eval(test_case["question"], msg.id)
-
-
 
 async def add_test(command: str, command_id: str):
     test_case = cl.user_session.get("test_case")
