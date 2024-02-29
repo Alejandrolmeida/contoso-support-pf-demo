@@ -1,0 +1,8 @@
+$schema: 
+  https://azuremlschemas.azureedge.net/promptflow/latest/CognitiveSearchConnection.schema.json
+type: cognitive_search
+name: contoso-search
+module: promptflow.connections
+api_base: https://search-contosokrcmojyj45dxq.search.windows.net/
+api_key: ${env:CONTOSO-SEARCH_API_KEY}
+api_version: 2023-07-01-preview

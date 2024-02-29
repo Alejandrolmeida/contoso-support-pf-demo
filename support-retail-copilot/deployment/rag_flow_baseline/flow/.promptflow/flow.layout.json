@@ -1,0 +1,58 @@
+{
+  "orientation": "Vertical",
+  "nodeLayouts": {
+    "inputs": {
+      "x": 582.5,
+      "y": 42,
+      "index": -1
+    },
+    "outputs": {
+      "x": 590,
+      "y": 712,
+      "index": -1
+    },
+    "question_embedding": {
+      "x": 607.5,
+      "y": 176,
+      "height": 75,
+      "index": 0
+    },
+    "customer_lookup": {
+      "x": 840,
+      "y": 310,
+      "height": 75,
+      "index": 1
+    },
+    "retrieve_support_documentation": {
+      "x": 490,
+      "y": 310,
+      "height": 75,
+      "index": 2
+    },
+    "customer_prompt": {
+      "x": 140,
+      "y": 444,
+      "index": 3
+    },
+    "llm_call": {
+      "x": 160,
+      "y": 578,
+      "index": 4
+    },
+    "context": {
+      "x": 947.5,
+      "y": 444,
+      "index": 5
+    }
+  },
+  "viewport": {
+    "transformMatrix": [
+      1,
+      0,
+      0,
+      1,
+      -1.752685546875,
+      -106.1666488647461
+    ]
+  }
+}

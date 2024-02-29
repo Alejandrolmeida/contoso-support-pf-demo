@@ -1,0 +1,9 @@
+$schema: 
+  https://azuremlschemas.azureedge.net/promptflow/latest/AzureOpenAIConnection.schema.json
+type: azure_open_ai
+name: aoai-connection
+module: promptflow.connections
+api_base: https://contoso-support-ai-aiserviceskrcmojyj45dxq.openai.azure.com/
+api_key: ${env:AOAI-CONNECTION_API_KEY}
+api_type: azure
+api_version: 2023-07-01-preview
