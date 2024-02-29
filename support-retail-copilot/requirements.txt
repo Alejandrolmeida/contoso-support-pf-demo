@@ -5,3 +5,6 @@ azure-search-documents
 azure-ai-ml
 azure-identity
 chainlit
+langchain
+unstructured
+markdown
