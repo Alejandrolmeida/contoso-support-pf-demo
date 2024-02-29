@@ -163,3 +163,5 @@ support-retail-copilot/mlruns
 **/.runs/*
 **/.promptflow/lkg_sources
 support-retail-copilot/.chainlit
+
+config.json
