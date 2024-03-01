@@ -1,8 +1,11 @@
-azure-search-documents
+azure-search-documents==11.4.0
+chainlit==0.7.700
+openai==1.0.0
+promptflow==1.1.0
+promptflow-tools==1.0.0
+httpx==0.24.1
 azure-ai-ml
 azure-identity
-chainlit
-chainlit
 langchain
 unstructured
 markdown

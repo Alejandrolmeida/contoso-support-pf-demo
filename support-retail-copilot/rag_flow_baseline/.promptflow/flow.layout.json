@@ -12,26 +12,26 @@
       "index": -1
     },
     "question_embedding": {
-      "x": 607.5,
-      "y": 176,
+      "x": 159.166748046875,
+      "y": 146,
       "height": 75,
       "index": 0
     },
     "customer_lookup": {
-      "x": 840,
-      "y": 310,
+      "x": 724.1666259765625,
+      "y": 195.83334350585938,
       "height": 75,
       "index": 1
     },
     "retrieve_support_documentation": {
-      "x": 490,
-      "y": 310,
+      "x": 147.50006103515625,
+      "y": 257.5,
       "height": 75,
       "index": 2
     },
     "customer_prompt": {
-      "x": 138,
-      "y": 455,
+      "x": 140,
+      "y": 444,
       "index": 3
     },
     "llm_call": {
@@ -40,8 +40,8 @@
       "index": 4
     },
     "context": {
-      "x": 947.5,
-      "y": 444,
+      "x": 758.3333740234375,
+      "y": 406.5,
       "index": 5
     }
   },

@@ -90,7 +90,7 @@ nodes:
     type: code
     path: llm_call.jinja2
   inputs:
-    deployment_name: gpt-35-turbo
+    deployment_name: gpt-4
     temperature: 0.7
     prompt_text: ${customer_prompt.output}
     question: ${inputs.question}

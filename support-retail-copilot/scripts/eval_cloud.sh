@@ -21,6 +21,15 @@ run_name_eval="${run_name}_eval"
 echo "run name: $run_name"
 echo "eval name: $run_name_eval"
 # create the run
-pfazure run create -f scripts/yaml/rag_job.yaml --name $run_name --stream
+#pfazure run create -f scripts/yaml/rag_job.yaml --name $run_name --stream
+pfazure run create -f scripts/yaml/rag_job.yaml --name $run_name --stream \
+    --workspace-name $(jq -r '.workspace_name' ../config.json) \
+    --resource-group $(jq -r '.resource_group' ../config.json) \
+    --subscription $(jq -r '.subscription_id' ../config.json)
+
 # evaluate the run
-pfazure run create -f scripts/yaml/eval_job.yaml --run $run_name --stream --name $run_name_eval
+#pfazure run create -f scripts/yaml/eval_job.yaml --run $run_name --stream --name $run_name_eval
+pfazure run create -f scripts/yaml/eval_job.yaml --run $run_name --stream --name $run_name_eval \
+    --workspace-name $(jq -r '.workspace_name' ../config.json) \
+    --resource-group $(jq -r '.resource_group' ../config.json) \
+    --subscription $(jq -r '.subscription_id' ../config.json)

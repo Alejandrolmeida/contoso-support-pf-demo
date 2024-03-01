@@ -1,0 +1,12 @@
+chainlit==0.7.700
+httpx==0.24.1
+azure-cosmos==4.5.1
+azure-cli
+azure-cli-core
+azure-cli-telemetry
+openai==0.27.10
+promptflow==1.0.0
+promptflow-tools==1.0.0
+azure.search
+azure.search.documents
+keyrings.alt
